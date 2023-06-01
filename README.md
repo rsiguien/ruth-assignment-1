@@ -1,1 +1,1 @@
-# ruth-assignment-1
+# ruth_assigment1

@@ -1,0 +1,164 @@
+:root{
+    --font-text-color: rgb(203, 198, 198);
+   
+}
+
+body {
+    font-family: Montserrat;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding-left: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.container{
+    padding-bottom: 100px;
+    padding-right: 50px;
+    background-color: #4c14f3;
+    display: flex;
+    align-items: center;
+}   
+
+input[type = 'button'] {
+    padding: 15px 30px;
+    margin: 20px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 40px;
+    background: linear-gradient(to right, rgb(220, 160, 47), rgb(208, 116, 4));
+    color: white;
+}
+
+/* Header */
+
+.header-logo-style{
+    padding-left: 100px;
+}
+
+.header-nav-list{
+    display: flex;
+    margin-left: auto;
+}
+
+.header-nav-link{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: white;
+    padding-left: 40px;
+    display: block;
+    }
+
+.header-nav-button{
+    cursor: pointer;
+    padding-right: 150px;
+  }
+
+.header-nav-button:focus,
+.header-nav-button:hover{
+    background-color: #4c14f3;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus{
+    color: orange;
+}
+
+
+/* Main (top part) */
+
+.items-left-part{
+    margin-right: 100px;
+
+}
+
+.items-right-part{
+    padding-left: 0px;
+}
+
+.functional-style{
+    font-weight: 0px;
+    font-size: 45px;
+    line-height: 10px;
+    text-align: 0;
+    color: rgb(242, 234, 234);
+}
+
+.focus-style{
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 10px;
+    text-align: 0;
+    color: rgb(242, 234, 234);
+    
+}
+
+.description-top-style{
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 35px;
+    text-align: 0;
+    color: var(--font-text-color);
+
+}
+
+.featured-style{
+    font-weight: 0px;
+    font-size: 13px;
+    line-height: 5px;
+    text-align: 0;
+    color: var(--font-text-color);
+}
+
+.main-nav-button{
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 0px;
+} 
+
+/* Main (bottom part) */
+
+.intro-question{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.intro-question-style{
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--font-text-color);
+    
+}
+
+.title-style{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: 0;
+    color: white;
+}
+
+.description-style{
+    font-weight: 0px;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: 0;
+    color: white;
+}
+
+.explore-style{
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
